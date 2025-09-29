@@ -8,8 +8,8 @@ on:
       - main
       - 'dev-*' # matches dev-1, dev-2, dev-feature, etc.
       - 'feat/**' # matches feat/one, feat/two, feat/any/sub/branch, etc.
-  paths-ignore:
-      - '.github/workflows/**' # if i changes in the workflow file, don't trigger the workflow
+    paths-ignore: 
+      - '.github/workflows/**' # if i changes in the workflow file, don't trigger the workflow 
     
 jobs:
   deploy:
