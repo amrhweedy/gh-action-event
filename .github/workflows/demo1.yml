@@ -3,6 +3,7 @@ on:
   pull_request:
     types: 
       - opened
+  workflow_dispatch: # manual trigger from Actions tab    
   push:
     branches:
       - main
